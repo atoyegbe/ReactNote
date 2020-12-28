@@ -65,6 +65,7 @@ class App extends Component {
 
   }
 
+
   onDismiss(id) {
     this.state.NoteData.filter(item => item.objectID !== id);
   }
